@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>GeoTiffElevationReader</Title>
+		<LicenseUrl>MIT</LicenseUrl>
+		<PackageId>GeoTiffElevationReader</PackageId>
+		<RepositoryUrl>https://github.com/ridicoulous/GeoTiffElevationReader</RepositoryUrl>
+		<Version>1.0.1</Version>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BitMiracle.LibTiff.NET" Version="2.4.649" />
+	</ItemGroup>
+
+</Project>

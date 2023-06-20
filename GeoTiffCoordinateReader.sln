@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoTiffElevationReader", "GeoTiffCoordinateReader\GeoTiffElevationReader.csproj", "{6ADC93F9-B7A5-48AC-8719-24E8BF447A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoTiffElevationReader.ConsoleApp", "GeoTiffCoordinateReader.ConsoleApp\GeoTiffElevationReader.ConsoleApp.csproj", "{3B9BCBCF-25E4-48A4-B79B-91D798CB0CB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ADC93F9-B7A5-48AC-8719-24E8BF447A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADC93F9-B7A5-48AC-8719-24E8BF447A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADC93F9-B7A5-48AC-8719-24E8BF447A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADC93F9-B7A5-48AC-8719-24E8BF447A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9BCBCF-25E4-48A4-B79B-91D798CB0CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9BCBCF-25E4-48A4-B79B-91D798CB0CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9BCBCF-25E4-48A4-B79B-91D798CB0CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9BCBCF-25E4-48A4-B79B-91D798CB0CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB844106-017B-4AAF-AC46-3212314F2193}
+	EndGlobalSection
+EndGlobal
